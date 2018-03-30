@@ -1,5 +1,41 @@
 <html>
 <head>
+<link rel="stylesheet"
+type="text/css"
+href="style.css">
+</head>
+<body onload="slides">
+<script>
+var images=["hackathon/img1.jpg","hackathon/img2.jpg","hackathon/img3.jpg","hackathon/img4.jpg","hackathon/img5.jpg","hackathon/img6.jpg"];
+var i=0;
+function slides()
+{document.getElementById("slideimage").src=images[i];
+if(i<(images.length-1))
+i++;
+else
+i=0;
+}
+setInterval(slides,2000)
+</script>
+<div id="outer">
+<div id="header">
+<div id="logo"></div>
+<div id="biet"></div>
+<div id="helpline"></div>
+</div>
+<div id="banner">
+</div>
+<div id="slidder">
+<img src="hackathon/img1.jpg" id="slideimage">
+</div>
+<div id="inner">
+<div id="news"></div>
+<div id="student"></div>
+<div id="quote"></div>
+</div>
+<div id="slide"></div>
+<div id="footer"></div>
+</div>
 </head>
 <body>
 </body>

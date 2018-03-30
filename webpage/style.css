@@ -1,1 +1,62 @@
-#outer
+#outer{
+margin:auto;
+width:1333;}
+#header{
+	height:200;
+border:2px solid black;}
+#logo{
+	height:198;
+border:1px solid silver;
+background-color:yellow;
+width:198;
+float:left;}
+#biet{
+	height:198;
+	border:1px solid silver;
+	width:927;
+	background-color:red;
+float:left;}
+#helpline{
+	height:198;
+	width:198;
+border:1px solid silver;
+float:right;
+background-color:red;
+}
+#banner{
+	height:50;
+border:2px solid black;
+}
+#slidder{
+	height:400;
+border:2px solid black;}
+#inner{
+	height:500;
+border:2px solid black;}
+#news{
+	height:498;
+border:1px solid silver;
+width:400;
+float:left;}
+#student{
+	height:498;
+	border:1px solid silver;
+width:523;
+float:left;}
+#quote{
+	height:498;
+	width:400;
+border:1px solid silver;
+float:right;}
+#slide{
+	height:30;
+border:2px solid black;}
+#footer{
+	height:150;
+border:2px solid black;}
+#slideimage{
+	height:400;
+}
+
+	
+	
